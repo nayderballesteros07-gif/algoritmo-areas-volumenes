@@ -3,21 +3,21 @@
 
 <head>
 
-<link rel="icon" href="logo-sena.png">
+    <link rel="icon" href="logo-sena.png">
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Algoritmo para el cálculo de Áreas, Perímetros y Volúmenes</title>
+    <title>Algoritmo para el cálculo de Áreas, Perímetros y Volúmenes</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -29,7 +29,7 @@
 
 <div class="logo">
 
-<<img src="logo-sena.png">
+<img src="logo-sena.png" alt="Logo SENA">
 
 </div>
 
@@ -41,7 +41,9 @@
 
 <a href="#problema">❓ Problema</a>
 
-<a href="#figuras">📐 Figuras</a>
+<a href="#figuras-planas">📐 Figuras Planas</a>
+
+<a href="#solidos">🧊 Sólidos Geométricos</a>
 
 <a href="#calculadora">🧮 Calculadora</a>
 
@@ -79,7 +81,7 @@ Evidencia GA2-240201528-AA4-EV01
 Ir a la Calculadora
 </a>
 
-<a href="#figuras" class="btn btn2">
+<a href="#figuras-planas" class="btn btn2">
 Ver Figuras
 </a>
 
@@ -92,6 +94,8 @@ Ver Figuras
 <p>Nayder Jesus Ballesteros Novoa</p>
 
 <p>Oscar Escobar</p>
+
+<p>Mauricio Rodriguez Suarez</p>
 
 <br>
 
@@ -113,7 +117,7 @@ Ver Figuras
 
 </section>
 
-<section id="introduccion">
+  <section id="introduccion">
 
 <div class="contenedor">
 
@@ -122,15 +126,11 @@ Ver Figuras
 <div class="card">
 
 <p>
-
 Las matemáticas permiten resolver problemas presentes en la vida diaria mediante procedimientos organizados y precisos. Entre las operaciones más utilizadas se encuentran el cálculo de áreas, perímetros y volúmenes de figuras geométricas.
-
 </p>
 
 <p>
-
-Para facilitar estos procesos se desarrolló una aplicación web capaz de calcular automáticamente diferentes figuras planas y sólidos regulares utilizando algoritmos programados en JavaScript.
-
+Para facilitar estos procesos se desarrolló una aplicación web capaz de calcular automáticamente diferentes figuras planas y sólidos geométricos utilizando algoritmos programados en JavaScript.
 </p>
 
 </div>
@@ -143,20 +143,16 @@ Para facilitar estos procesos se desarrolló una aplicación web capaz de calcul
 
 <div class="contenedor">
 
-<h2>❓ Problema planteado</h2>
+<h2>❓ Problema Planteado</h2>
 
 <div class="card">
 
 <p>
-
-En muchas situaciones académicas y laborales es necesario calcular áreas, perímetros y volúmenes. Cuando estos cálculos se realizan manualmente es posible cometer errores.
-
+En diferentes actividades académicas, profesionales y cotidianas es necesario calcular áreas, perímetros y volúmenes de distintas figuras geométricas. Cuando estos cálculos se realizan manualmente pueden presentarse errores que afectan los resultados.
 </p>
 
 <p>
-
-Por esta razón se diseñó una aplicación que automatiza el proceso mediante un algoritmo que solicita los datos necesarios, aplica la fórmula correspondiente y muestra el resultado de forma inmediata.
-
+Para solucionar este problema se diseñó una aplicación web que permite automatizar los cálculos mediante un algoritmo que solicita los datos necesarios, aplica la fórmula correspondiente y muestra el resultado de forma inmediata.
 </p>
 
 </div>
@@ -165,72 +161,58 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 
 </section>
 
-<section id="figuras">
+<section id="figuras-planas">
 
 <div class="contenedor">
 
-<h2>📐 Figuras Geométricas</h2>
+<h2>📐 Figuras Planas</h2>
 
 <div class="card">
 
-<h3>Fórmulas utilizadas</h3>
+<h3>Fórmulas de Áreas y Perímetros</h3>
 
 <table class="tabla">
 
 <tr>
-
 <th>Figura</th>
-
-<th>Fórmula</th>
-
+<th>Área</th>
+<th>Perímetro</th>
 </tr>
 
 <tr>
-
 <td>Triángulo</td>
-
 <td>(Base × Altura) ÷ 2</td>
-
+<td>a + b + c</td>
 </tr>
 
 <tr>
-
 <td>Rectángulo</td>
-
 <td>Base × Altura</td>
-
+<td>2(Base + Altura)</td>
 </tr>
 
 <tr>
-
-<td>Cubo</td>
-
-<td>Lado³</td>
-
+<td>Cuadrado</td>
+<td>Lado²</td>
+<td>4 × Lado</td>
 </tr>
 
 <tr>
-
-<td>Cilindro</td>
-
-<td>π × r² × h</td>
-
+<td>Círculo</td>
+<td>π × r²</td>
+<td>2 × π × r</td>
 </tr>
 
 <tr>
-
-<td>Cono</td>
-
-<td>(π × r² × h) ÷ 3</td>
-
+<td>Rombo</td>
+<td>(D × d) ÷ 2</td>
+<td>4 × Lado</td>
 </tr>
 
 <tr>
-
-<td>Esfera</td>
-
-<td>(4 × π × r³) ÷ 3</td>
-
+<td>Trapecio</td>
+<td>((B + b) × h) ÷ 2</td>
+<td>B + b + c + d</td>
 </tr>
 
 </table>
@@ -240,28 +222,95 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 <div class="cards">
 
 <div class="card">
-
 <img src="triangulo.png" class="figura">
-
 <h3>🔺 Triángulo</h3>
-
 <p>Área = (Base × Altura) ÷ 2</p>
-
 <p>Perímetro = a + b + c</p>
-
 </div>
 
 <div class="card">
-
 <img src="rectangulo.png" class="figura">
-
 <h3>⬛ Rectángulo</h3>
-
 <p>Área = Base × Altura</p>
-
 <p>Perímetro = 2(Base + Altura)</p>
+</div>
+
+<div class="card">
+<img src="cuadrado.png" class="figura">
+<h3>◼️ Cuadrado</h3>
+<p>Área = Lado²</p>
+<p>Perímetro = 4 × Lado</p>
+</div>
+
+<div class="card">
+<img src="circulo.png" class="figura">
+<h3>⚪ Círculo</h3>
+<p>Área = π × r²</p>
+<p>Perímetro = 2 × π × r</p>
+</div>
+
+<div class="card">
+<img src="rombo.png" class="figura">
+<h3>🔷 Rombo</h3>
+<p>Área = (D × d) ÷ 2</p>
+<p>Perímetro = 4 × Lado</p>
+</div>
+
+<div class="card">
+<img src="trapecio.png" class="figura">
+<h3>🔶 Trapecio</h3>
+<p>Área = ((B + b) × h) ÷ 2</p>
+<p>Perímetro = B + b + c + d</p>
+</div>
 
 </div>
+
+</div>
+
+</section>
+
+  <section id="solidos">
+
+<div class="contenedor">
+
+<h2>🧊 Sólidos Geométricos</h2>
+
+<div class="card">
+
+<h3>Fórmulas de Volumen</h3>
+
+<table class="tabla">
+
+<tr>
+<th>Sólido</th>
+<th>Volumen</th>
+</tr>
+
+<tr>
+<td>Cubo</td>
+<td>Lado³</td>
+</tr>
+
+<tr>
+<td>Cilindro</td>
+<td>π × r² × h</td>
+</tr>
+
+<tr>
+<td>Cono</td>
+<td>(π × r² × h) ÷ 3</td>
+</tr>
+
+<tr>
+<td>Esfera</td>
+<td>(4 × π × r³) ÷ 3</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="cards">
 
 <div class="card">
 
@@ -313,9 +362,21 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 
 <div class="contenedor">
 
-<h2>🧮 Calculadora de Áreas y Volúmenes</h2>
+<h2>🧮 Calculadora de Áreas, Perímetros y Volúmenes</h2>
 
 <div class="calculadora">
+
+<label>Seleccione el tipo</label>
+
+<select id="tipo" onchange="cambiarTipo()">
+
+<option value="planas">Figuras Planas</option>
+
+<option value="solidos">Sólidos Geométricos</option>
+
+</select>
+
+<br><br>
 
 <label>Seleccione la figura</label>
 
@@ -325,23 +386,31 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 
 <option value="rectangulo">Rectángulo</option>
 
-<option value="cubo">Cubo</option>
+<option value="cuadrado">Cuadrado</option>
 
-<option value="cilindro">Cilindro</option>
+<option value="circulo">Círculo</option>
 
-<option value="cono">Cono</option>
+<option value="rombo">Rombo</option>
 
-<option value="esfera">Esfera</option>
+<option value="trapecio">Trapecio</option>
 
 </select>
 
 <label id="label1">Primer valor</label>
 
-<input type="number" id="valor1" placeholder="Ingrese el primer valor">
+<input type="number" id="valor1">
 
 <label id="label2">Segundo valor</label>
 
-<input type="number" id="valor2" placeholder="Ingrese el segundo valor">
+<input type="number" id="valor2">
+
+<label id="label3" style="display:none;">Tercer valor</label>
+
+<input type="number" id="valor3" style="display:none;">
+
+<label id="label4" style="display:none;">Cuarto valor</label>
+
+<input type="number" id="valor4" style="display:none;">
 
 <div class="botones-calculadora">
 
@@ -355,7 +424,7 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 
 <h3>Resultado</h3>
 
-<p>Aquí aparecerá el resultado del cálculo.</p>
+<p>Aquí aparecerá el resultado.</p>
 
 </div>
 
@@ -365,7 +434,7 @@ Por esta razón se diseñó una aplicación que automatiza el proceso mediante u
 
 <p id="procedimiento">
 
-Aquí aparecerá el procedimiento del cálculo realizado.
+Aquí aparecerá el procedimiento del cálculo.
 
 </p>
 
@@ -384,51 +453,33 @@ Aquí aparecerá el procedimiento del cálculo realizado.
 <div class="cards">
 
 <div class="card">
-
 <h3>Paso 1</h3>
-
-<p>El usuario selecciona la figura geométrica que desea calcular.</p>
-
+<p>El usuario selecciona si desea calcular una figura plana o un sólido geométrico.</p>
 </div>
 
 <div class="card">
-
 <h3>Paso 2</h3>
-
-<p>El sistema solicita las medidas necesarias según la figura seleccionada.</p>
-
+<p>El sistema muestra las figuras correspondientes al tipo seleccionado.</p>
 </div>
 
 <div class="card">
-
 <h3>Paso 3</h3>
-
-<p>El algoritmo verifica que los datos ingresados sean válidos.</p>
-
+<p>El usuario ingresa las medidas solicitadas.</p>
 </div>
 
 <div class="card">
-
 <h3>Paso 4</h3>
-
-<p>Se identifica la fórmula matemática correspondiente.</p>
-
+<p>El algoritmo identifica la fórmula matemática correspondiente.</p>
 </div>
 
 <div class="card">
-
 <h3>Paso 5</h3>
-
-<p>Se realiza el cálculo utilizando las operaciones matemáticas.</p>
-
+<p>Se realizan los cálculos de área, perímetro o volumen según la figura elegida.</p>
 </div>
 
 <div class="card">
-
 <h3>Paso 6</h3>
-
-<p>El sistema muestra el resultado y el procedimiento utilizado.</p>
-
+<p>El sistema muestra el procedimiento y el resultado obtenido.</p>
 </div>
 
 </div>
@@ -446,39 +497,18 @@ Aquí aparecerá el procedimiento del cálculo realizado.
 <div class="cards">
 
 <div class="card">
-
 <h3>Conclusión 1</h3>
-
-<p>
-
-Los algoritmos permiten resolver problemas matemáticos de manera organizada, rápida y precisa.
-
-</p>
-
+<p>Los algoritmos permiten automatizar cálculos matemáticos de forma rápida, organizada y precisa.</p>
 </div>
 
 <div class="card">
-
 <h3>Conclusión 2</h3>
-
-<p>
-
-La programación facilita la automatización de cálculos reduciendo errores y optimizando el tiempo de respuesta.
-
-</p>
-
+<p>El desarrollo de esta aplicación permitió aplicar conocimientos de matemáticas y programación para resolver problemas relacionados con figuras planas y sólidos geométricos.</p>
 </div>
 
 <div class="card">
-
 <h3>Conclusión 3</h3>
-
-<p>
-
-Este proyecto permitió aplicar conocimientos de matemáticas y programación para desarrollar una herramienta útil y funcional.
-
-</p>
-
+<p>La utilización de herramientas computacionales disminuye errores de cálculo y facilita el aprendizaje de las fórmulas geométricas.</p>
 </div>
 
 </div>
@@ -488,9 +518,7 @@ Este proyecto permitió aplicar conocimientos de matemáticas y programación pa
 <div style="text-align:center;">
 
 <button class="btn" onclick="window.print()">
-
 🖨 Descargar / Guardar en PDF
-
 </button>
 
 </div>
@@ -521,6 +549,8 @@ Este proyecto permitió aplicar conocimientos de matemáticas y programación pa
 
 <p>Oscar Escobar</p>
 
+<p>Mauricio Rodriguez Suarez</p>
+
 <br>
 
 <p><strong>Instructor</strong></p>
@@ -536,4 +566,5 @@ Este proyecto permitió aplicar conocimientos de matemáticas y programación pa
 </body>
 
 </html>
+
 
