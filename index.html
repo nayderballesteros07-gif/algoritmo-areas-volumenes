@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+<link rel="icon" href="img/logo-sena.png">
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Algoritmo para el cálculo de Áreas, Perímetros y Volúmenes</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="contenedor">
+
+<div class="logo">
+
+<img src="img/logo-sena.png" alt="Logo SENA">
+
+</div>
+
+<nav>
+
+<a href="#inicio">🏠 Inicio</a>
+
+<a href="#introduccion">📖 Introducción</a>
+
+<a href="#problema">❓ Problema</a>
+
+<a href="#figuras">📐 Figuras</a>
+
+<a href="#calculadora">🧮 Calculadora</a>
+
+<a href="#algoritmo">💻 Algoritmo</a>
+
+<a href="#conclusiones">✅ Conclusiones</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section id="inicio" class="hero">
+
+<div class="contenedor">
+
+<h1>Algoritmo para el cálculo de Áreas, Perímetros y Volúmenes</h1>
+
+<p style="font-size:22px;color:#F4A62A;font-weight:bold;">
+Servicio Nacional de Aprendizaje - SENA
+</p>
+
+<p class="subtitulo">
+Evidencia GA2-240201528-AA4-EV01
+</p>
+
+<p>Tecnólogo en Guianza Turística</p>
+
+<p>Ficha 3497850</p>
+
+<div class="botones">
+
+<a href="#calculadora" class="btn">
+Ir a la Calculadora
+</a>
+
+<a href="#figuras" class="btn btn2">
+Ver Figuras
+</a>
+
+</div>
+
+<div class="tarjeta">
+
+<h3>Aprendices</h3>
+
+<p>Nayder Jesus Ballesteros Novoa</p>
+
+<p>Oscar Escobar</p>
+
+<br>
+
+<h3>Instructor</h3>
+
+<p>Javier Antonio Velasco Mendoza</p>
+
+<br>
+
+<h3>Programa</h3>
+
+<p>Tecnólogo en Guianza Turística</p>
+
+<p>Ficha 3497850</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="introduccion">
+
+<div class="contenedor">
+
+<h2>📖 Introducción</h2>
+
+<div class="card">
+
+<p>
+
+Las matemáticas permiten resolver problemas presentes en la vida diaria mediante procedimientos organizados y precisos. Entre las operaciones más utilizadas se encuentran el cálculo de áreas, perímetros y volúmenes de figuras geométricas.
+
+</p>
+
+<p>
+
+Para facilitar estos procesos se desarrolló una aplicación web capaz de calcular automáticamente diferentes figuras planas y sólidos regulares utilizando algoritmos programados en JavaScript.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="problema">
+
+<div class="contenedor">
+
+<h2>❓ Problema planteado</h2>
+
+<div class="card">
+
+<p>
+
+En muchas situaciones académicas y laborales es necesario calcular áreas, perímetros y volúmenes. Cuando estos cálculos se realizan manualmente es posible cometer errores.
+
+</p>
+
+<p>
+
+Por esta razón se diseñó una aplicación que automatiza el proceso mediante un algoritmo que solicita los datos necesarios, aplica la fórmula correspondiente y muestra el resultado de forma inmediata.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="figuras">
+
+<div class="contenedor">
+
+<h2>📐 Figuras Geométricas</h2>
+
+<div class="card">
+
+<h3>Fórmulas utilizadas</h3>
+
+<table class="tabla">
+
+<tr>
+
+<th>Figura</th>
+
+<th>Fórmula</th>
+
+</tr>
+
+<tr>
+
+<td>Triángulo</td>
+
+<td>(Base × Altura) ÷ 2</td>
+
+</tr>
+
+<tr>
+
+<td>Rectángulo</td>
+
+<td>Base × Altura</td>
+
+</tr>
+
+<tr>
+
+<td>Cubo</td>
+
+<td>Lado³</td>
+
+</tr>
+
+<tr>
+
+<td>Cilindro</td>
+
+<td>π × r² × h</td>
+
+</tr>
+
+<tr>
+
+<td>Cono</td>
+
+<td>(π × r² × h) ÷ 3</td>
+
+</tr>
+
+<tr>
+
+<td>Esfera</td>
+
+<td>(4 × π × r³) ÷ 3</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="img/triangulo.png" class="figura">
+
+<h3>🔺 Triángulo</h3>
+
+<p>Área = (Base × Altura) ÷ 2</p>
+
+<p>Perímetro = a + b + c</p>
+
+</div>
+
+<div class="card">
+
+<img src="img/rectangulo.png" class="figura">
+
+<h3>⬛ Rectángulo</h3>
+
+<p>Área = Base × Altura</p>
+
+<p>Perímetro = 2(Base + Altura)</p>
+
+</div>
+
+<div class="card">
+
+<img src="img/cubo.png" class="figura">
+
+<h3>🧊 Cubo</h3>
+
+<p>Volumen = Lado³</p>
+
+</div>
+
+<div class="card">
+
+<img src="img/cilindro.png" class="figura">
+
+<h3>🥫 Cilindro</h3>
+
+<p>Volumen = π × r² × h</p>
+
+</div>
+
+<div class="card">
+
+<img src="img/cono.png" class="figura">
+
+<h3>🔺 Cono</h3>
+
+<p>Volumen = (π × r² × h) ÷ 3</p>
+
+</div>
+
+<div class="card">
+
+<img src="img/esfera.png" class="figura">
+
+<h3>⚪ Esfera</h3>
+
+<p>Volumen = (4 × π × r³) ÷ 3</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="calculadora">
+
+<div class="contenedor">
+
+<h2>🧮 Calculadora de Áreas y Volúmenes</h2>
+
+<div class="calculadora">
+
+<label>Seleccione la figura</label>
+
+<select id="figura">
+
+<option value="triangulo">Triángulo</option>
+
+<option value="rectangulo">Rectángulo</option>
+
+<option value="cubo">Cubo</option>
+
+<option value="cilindro">Cilindro</option>
+
+<option value="cono">Cono</option>
+
+<option value="esfera">Esfera</option>
+
+</select>
+
+<label id="label1">Primer valor</label>
+
+<input type="number" id="valor1" placeholder="Ingrese el primer valor">
+
+<label id="label2">Segundo valor</label>
+
+<input type="number" id="valor2" placeholder="Ingrese el segundo valor">
+
+<div class="botones-calculadora">
+
+<button onclick="calcular()">Calcular</button>
+
+<button onclick="limpiar()" class="btn-limpiar">Limpiar</button>
+
+</div>
+
+<div id="resultado" class="resultado">
+
+<h3>Resultado</h3>
+
+<p>Aquí aparecerá el resultado del cálculo.</p>
+
+</div>
+
+<hr>
+
+<h3>Procedimiento</h3>
+
+<p id="procedimiento">
+
+Aquí aparecerá el procedimiento del cálculo realizado.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="algoritmo">
+
+<div class="contenedor">
+
+<h2>💻 Algoritmo del Sistema</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Paso 1</h3>
+
+<p>El usuario selecciona la figura geométrica que desea calcular.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Paso 2</h3>
+
+<p>El sistema solicita las medidas necesarias según la figura seleccionada.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Paso 3</h3>
+
+<p>El algoritmo verifica que los datos ingresados sean válidos.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Paso 4</h3>
+
+<p>Se identifica la fórmula matemática correspondiente.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Paso 5</h3>
+
+<p>Se realiza el cálculo utilizando las operaciones matemáticas.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Paso 6</h3>
+
+<p>El sistema muestra el resultado y el procedimiento utilizado.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="conclusiones">
+
+<div class="contenedor">
+
+<h2>✅ Conclusiones</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Conclusión 1</h3>
+
+<p>
+
+Los algoritmos permiten resolver problemas matemáticos de manera organizada, rápida y precisa.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Conclusión 2</h3>
+
+<p>
+
+La programación facilita la automatización de cálculos reduciendo errores y optimizando el tiempo de respuesta.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Conclusión 3</h3>
+
+<p>
+
+Este proyecto permitió aplicar conocimientos de matemáticas y programación para desarrollar una herramienta útil y funcional.
+
+</p>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div style="text-align:center;">
+
+<button class="btn" onclick="window.print()">
+
+🖨 Descargar / Guardar en PDF
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="contenedor">
+
+<hr>
+
+<br>
+
+<p><strong>Servicio Nacional de Aprendizaje - SENA</strong></p>
+
+<p>Tecnólogo en Guianza Turística</p>
+
+<p>Evidencia GA2-240201528-AA4-EV01</p>
+
+<br>
+
+<p><strong>Aprendices</strong></p>
+
+<p>Nayder Jesus Ballesteros Novoa</p>
+
+<p>Oscar Escobar</p>
+
+<br>
+
+<p><strong>Instructor</strong></p>
+
+<p>Javier Antonio Velasco Mendoza</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
